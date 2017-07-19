@@ -1,0 +1,6 @@
+framework module Pods_Camara_Ativa {
+  umbrella header "Pods-Camara Ativa-umbrella.h"
+
+  export *
+  module * { export * }
+}

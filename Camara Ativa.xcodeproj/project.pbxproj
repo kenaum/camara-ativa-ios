@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2428A7A71CC6BFFB00CDEFBC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2428A7A61CC6BFFB00CDEFBC /* User.swift */; };
+		2428A7BF1CC6FF8600CDEFBC /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2428A7BE1CC6FF8600CDEFBC /* MenuTableViewController.swift */; };
+		2428A7C11CC7068400CDEFBC /* SolicitacoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2428A7C01CC7068400CDEFBC /* SolicitacoesViewController.swift */; };
+		2428A7C51CC707F100CDEFBC /* SolicitacaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2428A7C31CC707F100CDEFBC /* SolicitacaoTableViewCell.swift */; };
+		2428A7C81CC7091200CDEFBC /* NoticiasCamaraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2428A7C71CC7091200CDEFBC /* NoticiasCamaraTableViewCell.xib */; };
+		2428A7CA1CC7093A00CDEFBC /* NoticiasCamaraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2428A7C91CC7093A00CDEFBC /* NoticiasCamaraTableViewCell.swift */; };
+		2428A7CC1CC7096200CDEFBC /* VereadoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2428A7CB1CC7096200CDEFBC /* VereadoresTableViewCell.swift */; };
+		2428A7CE1CC7097600CDEFBC /* VereadoresTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2428A7CD1CC7097600CDEFBC /* VereadoresTableViewCell.xib */; };
+		2428A7D01CC70A1A00CDEFBC /* SolicitacaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2428A7CF1CC70A1A00CDEFBC /* SolicitacaoTableViewCell.xib */; };
+		2428A7DC1CC7165D00CDEFBC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2428A7DB1CC7165D00CDEFBC /* SWRevealViewController.m */; };
+		2446B7831CCAB4C100CE3E52 /* SolicitacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2446B7821CCAB4C100CE3E52 /* SolicitacaoViewController.swift */; };
+		244934E41CE8708D00B93629 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244934E31CE8708D00B93629 /* CoreLocation.framework */; };
+		2467D5B41CE9E09700E26D48 /* ComoReivindicarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2467D5B31CE9E09700E26D48 /* ComoReivindicarViewController.swift */; };
+		2467D5B61CE9E18900E26D48 /* SobreAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2467D5B51CE9E18900E26D48 /* SobreAppViewController.swift */; };
+		2467D5B81CE9E43D00E26D48 /* BiografiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2467D5B71CE9E43D00E26D48 /* BiografiaViewController.swift */; };
+		249BD4361CA99CAB007C786B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249BD4351CA99CAB007C786B /* AppDelegate.swift */; };
+		249BD4381CA99CAB007C786B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249BD4371CA99CAB007C786B /* LoginViewController.swift */; };
+		249BD43B1CA99CAB007C786B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249BD4391CA99CAB007C786B /* Main.storyboard */; };
+		249BD43E1CA99CAB007C786B /* Camara_Ativa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 249BD43C1CA99CAB007C786B /* Camara_Ativa.xcdatamodeld */; };
+		249BD4401CA99CAB007C786B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249BD43F1CA99CAB007C786B /* Assets.xcassets */; };
+		249BD4431CA99CAB007C786B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249BD4411CA99CAB007C786B /* LaunchScreen.storyboard */; };
+		249BD44E1CA99CAB007C786B /* Camara_AtivaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249BD44D1CA99CAB007C786B /* Camara_AtivaTests.swift */; };
+		249BD4591CA99CAB007C786B /* Camara_AtivaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249BD4581CA99CAB007C786B /* Camara_AtivaUITests.swift */; };
+		249BD46E1CA9D3BC007C786B /* SwiftUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249BD46D1CA9D3BC007C786B /* SwiftUtil.swift */; };
+		24A5F4DE1CE3CDFD00FE1B46 /* SolicitacoesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4DD1CE3CDFD00FE1B46 /* SolicitacoesController.swift */; };
+		24A5F4E01CE3D1EE00FE1B46 /* Solicitacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4DF1CE3D1ED00FE1B46 /* Solicitacao.swift */; };
+		24A5F4E31CE3D23700FE1B46 /* RequestStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4E21CE3D23700FE1B46 /* RequestStatus.swift */; };
+		24A5F4E51CE3D25000FE1B46 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4E41CE3D25000FE1B46 /* RequestType.swift */; };
+		24A5F4E81CE3D41F00FE1B46 /* Vereador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4E71CE3D41F00FE1B46 /* Vereador.swift */; };
+		24A5F4EA1CE3D53200FE1B46 /* VereadorTelefone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4E91CE3D53200FE1B46 /* VereadorTelefone.swift */; };
+		24A5F4EC1CE3D69E00FE1B46 /* Noticia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4EB1CE3D69E00FE1B46 /* Noticia.swift */; };
+		24A5F4EE1CE3EE2700FE1B46 /* NoticiasCamaraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4ED1CE3EE2600FE1B46 /* NoticiasCamaraViewController.swift */; };
+		24A5F4F01CE3EEBD00FE1B46 /* NoticiasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4EF1CE3EEBD00FE1B46 /* NoticiasController.swift */; };
+		24A5F4F21CE3F0A200FE1B46 /* VereadoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5F4F11CE3F0A200FE1B46 /* VereadoresController.swift */; };
+		24AA9C641CE9CF3800A67226 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA9C631CE9CF3800A67226 /* CadastroViewController.swift */; };
+		24BBA7861CE53CC30091FA14 /* NoticiaConsultadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BBA7851CE53CC30091FA14 /* NoticiaConsultadaViewController.swift */; };
+		24CD9AAF1CE689B300B493B9 /* VereadorConsultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD9AAE1CE689B200B493B9 /* VereadorConsultadoViewController.swift */; };
+		24CD9AB11CE68FEA00B493B9 /* VereadoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD9AB01CE68FEA00B493B9 /* VereadoresViewController.swift */; };
+		24E3C2871CC5FCBE004798CC /* SwiftValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E3C2861CC5FCBE004798CC /* SwiftValidator.swift */; };
+		24E3C28A1CC60357004798CC /* UsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E3C2891CC60357004798CC /* UsersController.swift */; };
+		24E3C28D1CC61E3C004798CC /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E3C28C1CC61E3B004798CC /* HTTPRequest.swift */; };
+		24E3C28F1CC61E74004798CC /* HTTPCons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E3C28E1CC61E74004798CC /* HTTPCons.swift */; };
+		9ADEC116590DE4B9CE28D1A0 /* Pods_Camara_Ativa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592C2CB0A187C9AF5B57CF03 /* Pods_Camara_Ativa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		249BD44A1CA99CAB007C786B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 249BD42A1CA99CAB007C786B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249BD4311CA99CAB007C786B;
+			remoteInfo = "Camara Ativa";
+		};
+		249BD4551CA99CAB007C786B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 249BD42A1CA99CAB007C786B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249BD4311CA99CAB007C786B;
+			remoteInfo = "Camara Ativa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2428A7A61CC6BFFB00CDEFBC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
+		2428A7BE1CC6FF8600CDEFBC /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewController.swift; path = Controller/ViewControllers/MenuTableViewController.swift; sourceTree = "<group>"; };
+		2428A7C01CC7068400CDEFBC /* SolicitacoesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolicitacoesViewController.swift; path = Controller/ViewControllers/SolicitacoesViewController.swift; sourceTree = "<group>"; };
+		2428A7C31CC707F100CDEFBC /* SolicitacaoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolicitacaoTableViewCell.swift; path = Controller/ViewControllers/SolicitacaoTableViewCell.swift; sourceTree = "<group>"; };
+		2428A7C71CC7091200CDEFBC /* NoticiasCamaraTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoticiasCamaraTableViewCell.xib; path = View/NoticiasCamaraTableViewCell.xib; sourceTree = "<group>"; };
+		2428A7C91CC7093A00CDEFBC /* NoticiasCamaraTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoticiasCamaraTableViewCell.swift; path = Controller/ViewControllers/NoticiasCamaraTableViewCell.swift; sourceTree = "<group>"; };
+		2428A7CB1CC7096200CDEFBC /* VereadoresTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VereadoresTableViewCell.swift; path = View/VereadoresTableViewCell.swift; sourceTree = "<group>"; };
+		2428A7CD1CC7097600CDEFBC /* VereadoresTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VereadoresTableViewCell.xib; path = View/VereadoresTableViewCell.xib; sourceTree = "<group>"; };
+		2428A7CF1CC70A1A00CDEFBC /* SolicitacaoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SolicitacaoTableViewCell.xib; path = View/SolicitacaoTableViewCell.xib; sourceTree = "<group>"; };
+		2428A7DA1CC7165D00CDEFBC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = Lib/SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		2428A7DB1CC7165D00CDEFBC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = Lib/SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		2428A7DD1CC7169800CDEFBC /* Camara Ativa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Camara Ativa-Bridging-Header.h"; sourceTree = "<group>"; };
+		2446B7821CCAB4C100CE3E52 /* SolicitacaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolicitacaoViewController.swift; path = Controller/ViewControllers/SolicitacaoViewController.swift; sourceTree = "<group>"; };
+		244934E31CE8708D00B93629 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2467D5B31CE9E09700E26D48 /* ComoReivindicarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComoReivindicarViewController.swift; path = Controller/ViewControllers/ComoReivindicarViewController.swift; sourceTree = "<group>"; };
+		2467D5B51CE9E18900E26D48 /* SobreAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SobreAppViewController.swift; path = Controller/ViewControllers/SobreAppViewController.swift; sourceTree = "<group>"; };
+		2467D5B71CE9E43D00E26D48 /* BiografiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BiografiaViewController.swift; path = Controller/ViewControllers/BiografiaViewController.swift; sourceTree = "<group>"; };
+		249BD4321CA99CAB007C786B /* Câmara Ativa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Câmara Ativa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249BD4351CA99CAB007C786B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		249BD4371CA99CAB007C786B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		249BD43A1CA99CAB007C786B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		249BD43D1CA99CAB007C786B /* Camara_Ativa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Camara_Ativa.xcdatamodel; sourceTree = "<group>"; };
+		249BD43F1CA99CAB007C786B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		249BD4421CA99CAB007C786B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		249BD4441CA99CAB007C786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249BD4491CA99CAB007C786B /* Camara AtivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camara AtivaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249BD44D1CA99CAB007C786B /* Camara_AtivaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camara_AtivaTests.swift; sourceTree = "<group>"; };
+		249BD44F1CA99CAB007C786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249BD4541CA99CAB007C786B /* Camara AtivaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camara AtivaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249BD4581CA99CAB007C786B /* Camara_AtivaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camara_AtivaUITests.swift; sourceTree = "<group>"; };
+		249BD45A1CA99CAB007C786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249BD46D1CA9D3BC007C786B /* SwiftUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftUtil.swift; path = Util/SwiftUtil.swift; sourceTree = "<group>"; };
+		24A5F4DD1CE3CDFD00FE1B46 /* SolicitacoesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolicitacoesController.swift; path = Controller/SolicitacoesController.swift; sourceTree = "<group>"; };
+		24A5F4DF1CE3D1ED00FE1B46 /* Solicitacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Solicitacao.swift; path = Model/Solicitacao.swift; sourceTree = "<group>"; };
+		24A5F4E21CE3D23700FE1B46 /* RequestStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestStatus.swift; path = Model/RequestStatus.swift; sourceTree = "<group>"; };
+		24A5F4E41CE3D25000FE1B46 /* RequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestType.swift; path = Model/Solicitacao/RequestType.swift; sourceTree = "<group>"; };
+		24A5F4E71CE3D41F00FE1B46 /* Vereador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vereador.swift; path = Model/Vereador/Vereador.swift; sourceTree = "<group>"; };
+		24A5F4E91CE3D53200FE1B46 /* VereadorTelefone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VereadorTelefone.swift; path = Model/Vereador/VereadorTelefone.swift; sourceTree = "<group>"; };
+		24A5F4EB1CE3D69E00FE1B46 /* Noticia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Noticia.swift; path = Model/Noticia.swift; sourceTree = "<group>"; };
+		24A5F4ED1CE3EE2600FE1B46 /* NoticiasCamaraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoticiasCamaraViewController.swift; path = Controller/ViewControllers/NoticiasCamaraViewController.swift; sourceTree = "<group>"; };
+		24A5F4EF1CE3EEBD00FE1B46 /* NoticiasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoticiasController.swift; path = Controller/NoticiasController.swift; sourceTree = "<group>"; };
+		24A5F4F11CE3F0A200FE1B46 /* VereadoresController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VereadoresController.swift; path = Controller/VereadoresController.swift; sourceTree = "<group>"; };
+		24AA9C631CE9CF3800A67226 /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CadastroViewController.swift; path = Controller/ViewControllers/CadastroViewController.swift; sourceTree = "<group>"; };
+		24BBA7851CE53CC30091FA14 /* NoticiaConsultadaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoticiaConsultadaViewController.swift; path = Controller/ViewControllers/NoticiaConsultadaViewController.swift; sourceTree = "<group>"; };
+		24CD9AAE1CE689B200B493B9 /* VereadorConsultadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VereadorConsultadoViewController.swift; path = Controller/ViewControllers/VereadorConsultadoViewController.swift; sourceTree = "<group>"; };
+		24CD9AB01CE68FEA00B493B9 /* VereadoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VereadoresViewController.swift; path = Controller/ViewControllers/VereadoresViewController.swift; sourceTree = "<group>"; };
+		24E3C2861CC5FCBE004798CC /* SwiftValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftValidator.swift; path = Util/SwiftValidator.swift; sourceTree = "<group>"; };
+		24E3C2891CC60357004798CC /* UsersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersController.swift; path = Controller/UsersController.swift; sourceTree = "<group>"; };
+		24E3C28C1CC61E3B004798CC /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPRequest.swift; path = HTTPRequest/HTTPRequest.swift; sourceTree = "<group>"; };
+		24E3C28E1CC61E74004798CC /* HTTPCons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPCons.swift; path = HTTPRequest/HTTPCons.swift; sourceTree = "<group>"; };
+		4274CBAB7D7AB860FF140FAA /* Pods-Camara Ativa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camara Ativa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Camara Ativa/Pods-Camara Ativa.release.xcconfig"; sourceTree = "<group>"; };
+		592C2CB0A187C9AF5B57CF03 /* Pods_Camara_Ativa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camara_Ativa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0E74AC11B2657FFD641DD2 /* Pods-Camara Ativa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camara Ativa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Camara Ativa/Pods-Camara Ativa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249BD42F1CA99CAB007C786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244934E41CE8708D00B93629 /* CoreLocation.framework in Frameworks */,
+				9ADEC116590DE4B9CE28D1A0 /* Pods_Camara_Ativa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249BD4461CA99CAB007C786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249BD4511CA99CAB007C786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2428A7AF1CC6F43100CDEFBC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2428A7B01CC6F44000CDEFBC /* SWRevealViewController */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		2428A7B01CC6F44000CDEFBC /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2428A7DA1CC7165D00CDEFBC /* SWRevealViewController.h */,
+				2428A7DB1CC7165D00CDEFBC /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		2428A7C21CC7078F00CDEFBC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2428A7CF1CC70A1A00CDEFBC /* SolicitacaoTableViewCell.xib */,
+				2428A7C71CC7091200CDEFBC /* NoticiasCamaraTableViewCell.xib */,
+				2428A7CD1CC7097600CDEFBC /* VereadoresTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		249BD4291CA99CAB007C786B = {
+			isa = PBXGroup;
+			children = (
+				249BD4341CA99CAB007C786B /* Camara Ativa */,
+				249BD44C1CA99CAB007C786B /* Camara AtivaTests */,
+				249BD4571CA99CAB007C786B /* Camara AtivaUITests */,
+				249BD4331CA99CAB007C786B /* Products */,
+				43096E15871969624DF27142 /* Pods */,
+				46ABA3E26B707AE6EBA1C097 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		249BD4331CA99CAB007C786B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				249BD4321CA99CAB007C786B /* Câmara Ativa.app */,
+				249BD4491CA99CAB007C786B /* Camara AtivaTests.xctest */,
+				249BD4541CA99CAB007C786B /* Camara AtivaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		249BD4341CA99CAB007C786B /* Camara Ativa */ = {
+			isa = PBXGroup;
+			children = (
+				2428A7AF1CC6F43100CDEFBC /* Lib */,
+				24E3C28B1CC61DE3004798CC /* HTTPRequest */,
+				249BD46C1CA9D395007C786B /* Util */,
+				249BD4681CA9D336007C786B /* Controller */,
+				249BD4671CA9D32E007C786B /* View */,
+				249BD4661CA9D322007C786B /* Model */,
+				249BD4351CA99CAB007C786B /* AppDelegate.swift */,
+				249BD4391CA99CAB007C786B /* Main.storyboard */,
+				249BD43F1CA99CAB007C786B /* Assets.xcassets */,
+				249BD4411CA99CAB007C786B /* LaunchScreen.storyboard */,
+				249BD4441CA99CAB007C786B /* Info.plist */,
+				249BD43C1CA99CAB007C786B /* Camara_Ativa.xcdatamodeld */,
+				2428A7DD1CC7169800CDEFBC /* Camara Ativa-Bridging-Header.h */,
+			);
+			path = "Camara Ativa";
+			sourceTree = "<group>";
+		};
+		249BD44C1CA99CAB007C786B /* Camara AtivaTests */ = {
+			isa = PBXGroup;
+			children = (
+				249BD44D1CA99CAB007C786B /* Camara_AtivaTests.swift */,
+				249BD44F1CA99CAB007C786B /* Info.plist */,
+			);
+			path = "Camara AtivaTests";
+			sourceTree = "<group>";
+		};
+		249BD4571CA99CAB007C786B /* Camara AtivaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				249BD4581CA99CAB007C786B /* Camara_AtivaUITests.swift */,
+				249BD45A1CA99CAB007C786B /* Info.plist */,
+			);
+			path = "Camara AtivaUITests";
+			sourceTree = "<group>";
+		};
+		249BD4661CA9D322007C786B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24A5F4E61CE3D40600FE1B46 /* Vereador */,
+				24A5F4E11CE3D21900FE1B46 /* Solicitacao */,
+				2428A7A61CC6BFFB00CDEFBC /* User.swift */,
+				24A5F4EB1CE3D69E00FE1B46 /* Noticia.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		249BD4671CA9D32E007C786B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2428A7C21CC7078F00CDEFBC /* Cells */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		249BD4681CA9D336007C786B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				249BD46F1CA9D439007C786B /* ViewControllers */,
+				24E3C2891CC60357004798CC /* UsersController.swift */,
+				24A5F4DD1CE3CDFD00FE1B46 /* SolicitacoesController.swift */,
+				24A5F4EF1CE3EEBD00FE1B46 /* NoticiasController.swift */,
+				24A5F4F11CE3F0A200FE1B46 /* VereadoresController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		249BD46C1CA9D395007C786B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				249BD46D1CA9D3BC007C786B /* SwiftUtil.swift */,
+				24E3C2861CC5FCBE004798CC /* SwiftValidator.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		249BD46F1CA9D439007C786B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				249BD4371CA99CAB007C786B /* LoginViewController.swift */,
+				2428A7BE1CC6FF8600CDEFBC /* MenuTableViewController.swift */,
+				2428A7C01CC7068400CDEFBC /* SolicitacoesViewController.swift */,
+				2428A7C31CC707F100CDEFBC /* SolicitacaoTableViewCell.swift */,
+				24A5F4ED1CE3EE2600FE1B46 /* NoticiasCamaraViewController.swift */,
+				2428A7C91CC7093A00CDEFBC /* NoticiasCamaraTableViewCell.swift */,
+				2428A7CB1CC7096200CDEFBC /* VereadoresTableViewCell.swift */,
+				2446B7821CCAB4C100CE3E52 /* SolicitacaoViewController.swift */,
+				24BBA7851CE53CC30091FA14 /* NoticiaConsultadaViewController.swift */,
+				24CD9AAE1CE689B200B493B9 /* VereadorConsultadoViewController.swift */,
+				24CD9AB01CE68FEA00B493B9 /* VereadoresViewController.swift */,
+				24AA9C631CE9CF3800A67226 /* CadastroViewController.swift */,
+				2467D5B31CE9E09700E26D48 /* ComoReivindicarViewController.swift */,
+				2467D5B51CE9E18900E26D48 /* SobreAppViewController.swift */,
+				2467D5B71CE9E43D00E26D48 /* BiografiaViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		24A5F4E11CE3D21900FE1B46 /* Solicitacao */ = {
+			isa = PBXGroup;
+			children = (
+				24A5F4DF1CE3D1ED00FE1B46 /* Solicitacao.swift */,
+				24A5F4E21CE3D23700FE1B46 /* RequestStatus.swift */,
+				24A5F4E41CE3D25000FE1B46 /* RequestType.swift */,
+			);
+			name = Solicitacao;
+			sourceTree = "<group>";
+		};
+		24A5F4E61CE3D40600FE1B46 /* Vereador */ = {
+			isa = PBXGroup;
+			children = (
+				24A5F4E71CE3D41F00FE1B46 /* Vereador.swift */,
+				24A5F4E91CE3D53200FE1B46 /* VereadorTelefone.swift */,
+			);
+			name = Vereador;
+			sourceTree = "<group>";
+		};
+		24E3C28B1CC61DE3004798CC /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				24E3C28C1CC61E3B004798CC /* HTTPRequest.swift */,
+				24E3C28E1CC61E74004798CC /* HTTPCons.swift */,
+			);
+			name = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		43096E15871969624DF27142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D0E74AC11B2657FFD641DD2 /* Pods-Camara Ativa.debug.xcconfig */,
+				4274CBAB7D7AB860FF140FAA /* Pods-Camara Ativa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46ABA3E26B707AE6EBA1C097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				244934E31CE8708D00B93629 /* CoreLocation.framework */,
+				592C2CB0A187C9AF5B57CF03 /* Pods_Camara_Ativa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		249BD4311CA99CAB007C786B /* Camara Ativa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249BD45D1CA99CAB007C786B /* Build configuration list for PBXNativeTarget "Camara Ativa" */;
+			buildPhases = (
+				27CD1C34984415435FA9AA52 /* Check Pods Manifest.lock */,
+				249BD42E1CA99CAB007C786B /* Sources */,
+				249BD42F1CA99CAB007C786B /* Frameworks */,
+				249BD4301CA99CAB007C786B /* Resources */,
+				03D14973C00D9B74F31CE587 /* Embed Pods Frameworks */,
+				38BF92B320E4E73BA0CDF043 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camara Ativa";
+			productName = "Camara Ativa";
+			productReference = 249BD4321CA99CAB007C786B /* Câmara Ativa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		249BD4481CA99CAB007C786B /* Camara AtivaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249BD4601CA99CAB007C786B /* Build configuration list for PBXNativeTarget "Camara AtivaTests" */;
+			buildPhases = (
+				249BD4451CA99CAB007C786B /* Sources */,
+				249BD4461CA99CAB007C786B /* Frameworks */,
+				249BD4471CA99CAB007C786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249BD44B1CA99CAB007C786B /* PBXTargetDependency */,
+			);
+			name = "Camara AtivaTests";
+			productName = "Camara AtivaTests";
+			productReference = 249BD4491CA99CAB007C786B /* Camara AtivaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		249BD4531CA99CAB007C786B /* Camara AtivaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249BD4631CA99CAB007C786B /* Build configuration list for PBXNativeTarget "Camara AtivaUITests" */;
+			buildPhases = (
+				249BD4501CA99CAB007C786B /* Sources */,
+				249BD4511CA99CAB007C786B /* Frameworks */,
+				249BD4521CA99CAB007C786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249BD4561CA99CAB007C786B /* PBXTargetDependency */,
+			);
+			name = "Camara AtivaUITests";
+			productName = "Camara AtivaUITests";
+			productReference = 249BD4541CA99CAB007C786B /* Camara AtivaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		249BD42A1CA99CAB007C786B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Big Arte";
+				TargetAttributes = {
+					249BD4311CA99CAB007C786B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 34K4G8ZZ4J;
+					};
+					249BD4481CA99CAB007C786B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 249BD4311CA99CAB007C786B;
+					};
+					249BD4531CA99CAB007C786B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 249BD4311CA99CAB007C786B;
+					};
+				};
+			};
+			buildConfigurationList = 249BD42D1CA99CAB007C786B /* Build configuration list for PBXProject "Camara Ativa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 249BD4291CA99CAB007C786B;
+			productRefGroup = 249BD4331CA99CAB007C786B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				249BD4311CA99CAB007C786B /* Camara Ativa */,
+				249BD4481CA99CAB007C786B /* Camara AtivaTests */,
+				249BD4531CA99CAB007C786B /* Camara AtivaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		249BD4301CA99CAB007C786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249BD4431CA99CAB007C786B /* LaunchScreen.storyboard in Resources */,
+				2428A7C81CC7091200CDEFBC /* NoticiasCamaraTableViewCell.xib in Resources */,
+				249BD4401CA99CAB007C786B /* Assets.xcassets in Resources */,
+				249BD43B1CA99CAB007C786B /* Main.storyboard in Resources */,
+				2428A7CE1CC7097600CDEFBC /* VereadoresTableViewCell.xib in Resources */,
+				2428A7D01CC70A1A00CDEFBC /* SolicitacaoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249BD4471CA99CAB007C786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249BD4521CA99CAB007C786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D14973C00D9B74F31CE587 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camara Ativa/Pods-Camara Ativa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27CD1C34984415435FA9AA52 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38BF92B320E4E73BA0CDF043 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camara Ativa/Pods-Camara Ativa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		249BD42E1CA99CAB007C786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2428A7CA1CC7093A00CDEFBC /* NoticiasCamaraTableViewCell.swift in Sources */,
+				2428A7C11CC7068400CDEFBC /* SolicitacoesViewController.swift in Sources */,
+				2428A7DC1CC7165D00CDEFBC /* SWRevealViewController.m in Sources */,
+				2428A7C51CC707F100CDEFBC /* SolicitacaoTableViewCell.swift in Sources */,
+				24A5F4E31CE3D23700FE1B46 /* RequestStatus.swift in Sources */,
+				2446B7831CCAB4C100CE3E52 /* SolicitacaoViewController.swift in Sources */,
+				24A5F4DE1CE3CDFD00FE1B46 /* SolicitacoesController.swift in Sources */,
+				249BD4381CA99CAB007C786B /* LoginViewController.swift in Sources */,
+				249BD46E1CA9D3BC007C786B /* SwiftUtil.swift in Sources */,
+				24BBA7861CE53CC30091FA14 /* NoticiaConsultadaViewController.swift in Sources */,
+				2428A7BF1CC6FF8600CDEFBC /* MenuTableViewController.swift in Sources */,
+				24CD9AB11CE68FEA00B493B9 /* VereadoresViewController.swift in Sources */,
+				24A5F4EC1CE3D69E00FE1B46 /* Noticia.swift in Sources */,
+				24AA9C641CE9CF3800A67226 /* CadastroViewController.swift in Sources */,
+				24E3C28A1CC60357004798CC /* UsersController.swift in Sources */,
+				2428A7CC1CC7096200CDEFBC /* VereadoresTableViewCell.swift in Sources */,
+				24E3C2871CC5FCBE004798CC /* SwiftValidator.swift in Sources */,
+				24E3C28F1CC61E74004798CC /* HTTPCons.swift in Sources */,
+				2467D5B61CE9E18900E26D48 /* SobreAppViewController.swift in Sources */,
+				24CD9AAF1CE689B300B493B9 /* VereadorConsultadoViewController.swift in Sources */,
+				24A5F4EE1CE3EE2700FE1B46 /* NoticiasCamaraViewController.swift in Sources */,
+				24A5F4F01CE3EEBD00FE1B46 /* NoticiasController.swift in Sources */,
+				24A5F4E01CE3D1EE00FE1B46 /* Solicitacao.swift in Sources */,
+				24A5F4EA1CE3D53200FE1B46 /* VereadorTelefone.swift in Sources */,
+				2428A7A71CC6BFFB00CDEFBC /* User.swift in Sources */,
+				24E3C28D1CC61E3C004798CC /* HTTPRequest.swift in Sources */,
+				2467D5B81CE9E43D00E26D48 /* BiografiaViewController.swift in Sources */,
+				24A5F4F21CE3F0A200FE1B46 /* VereadoresController.swift in Sources */,
+				249BD4361CA99CAB007C786B /* AppDelegate.swift in Sources */,
+				249BD43E1CA99CAB007C786B /* Camara_Ativa.xcdatamodeld in Sources */,
+				2467D5B41CE9E09700E26D48 /* ComoReivindicarViewController.swift in Sources */,
+				24A5F4E51CE3D25000FE1B46 /* RequestType.swift in Sources */,
+				24A5F4E81CE3D41F00FE1B46 /* Vereador.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249BD4451CA99CAB007C786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249BD44E1CA99CAB007C786B /* Camara_AtivaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249BD4501CA99CAB007C786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249BD4591CA99CAB007C786B /* Camara_AtivaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		249BD44B1CA99CAB007C786B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 249BD4311CA99CAB007C786B /* Camara Ativa */;
+			targetProxy = 249BD44A1CA99CAB007C786B /* PBXContainerItemProxy */;
+		};
+		249BD4561CA99CAB007C786B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 249BD4311CA99CAB007C786B /* Camara Ativa */;
+			targetProxy = 249BD4551CA99CAB007C786B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		249BD4391CA99CAB007C786B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249BD43A1CA99CAB007C786B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		249BD4411CA99CAB007C786B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249BD4421CA99CAB007C786B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		249BD45B1CA99CAB007C786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		249BD45C1CA99CAB007C786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		249BD45E1CA99CAB007C786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0E74AC11B2657FFD641DD2 /* Pods-Camara Ativa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Camara Ativa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ms.gov.br.camara.Camara-Ativa";
+				PRODUCT_NAME = "Câmara Ativa";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Camara Ativa/Camara Ativa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		249BD45F1CA99CAB007C786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4274CBAB7D7AB860FF140FAA /* Pods-Camara Ativa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Camara Ativa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ms.gov.br.camara.Camara-Ativa";
+				PRODUCT_NAME = "Câmara Ativa";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Camara Ativa/Camara Ativa-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		249BD4611CA99CAB007C786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Camara AtivaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.rodolfoortale.Camara-AtivaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camara Ativa.app/Camara Ativa";
+			};
+			name = Debug;
+		};
+		249BD4621CA99CAB007C786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Camara AtivaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.rodolfoortale.Camara-AtivaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camara Ativa.app/Camara Ativa";
+			};
+			name = Release;
+		};
+		249BD4641CA99CAB007C786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Camara AtivaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.rodolfoortale.Camara-AtivaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Camara Ativa";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		249BD4651CA99CAB007C786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Camara AtivaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.rodolfoortale.Camara-AtivaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Camara Ativa";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		249BD42D1CA99CAB007C786B /* Build configuration list for PBXProject "Camara Ativa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249BD45B1CA99CAB007C786B /* Debug */,
+				249BD45C1CA99CAB007C786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249BD45D1CA99CAB007C786B /* Build configuration list for PBXNativeTarget "Camara Ativa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249BD45E1CA99CAB007C786B /* Debug */,
+				249BD45F1CA99CAB007C786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249BD4601CA99CAB007C786B /* Build configuration list for PBXNativeTarget "Camara AtivaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249BD4611CA99CAB007C786B /* Debug */,
+				249BD4621CA99CAB007C786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249BD4631CA99CAB007C786B /* Build configuration list for PBXNativeTarget "Camara AtivaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249BD4641CA99CAB007C786B /* Debug */,
+				249BD4651CA99CAB007C786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		249BD43C1CA99CAB007C786B /* Camara_Ativa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				249BD43D1CA99CAB007C786B /* Camara_Ativa.xcdatamodel */,
+			);
+			currentVersion = 249BD43D1CA99CAB007C786B /* Camara_Ativa.xcdatamodel */;
+			path = Camara_Ativa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 249BD42A1CA99CAB007C786B /* Project object */;
+}
